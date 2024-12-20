@@ -1,0 +1,15 @@
+.mainBox {
+  background-color: var(--white);
+  width: 56rem;
+  height: 43.2rem;
+  border-radius: var(--main-box-radius);
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .mainBox {
+    flex-direction: column;
+    width: 35.2rem;
+    height: auto;
+  }
+}

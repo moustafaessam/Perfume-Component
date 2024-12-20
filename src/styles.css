@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  /* Colors */
+  --dark-cyan: hsl(158, 36%, 37%);
+  --darker-cyan: rgb(16, 61, 44);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  /* Font Size */
+  --header: 3.43rem;
+  --paragraph: 1.4rem;
+  --price: 3.5rem;
+  --text-btn: 1.53rem;
+  /* Spacing */
+  --content-padding: 2rem;
+  --btn-padding: 1.6rem;
+  /* Border radius */
+  --main-box-radius: 1.6rem;
+  --btn-radius: 0.8rem;
+  /* Font Family */
+  --mont: "Montserrat", sans-serif;
+  --fraunces: "Fraunces", serif;
+}
+
+body {
+  background-color: var(--cream);
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: var(--paragraph);
+}

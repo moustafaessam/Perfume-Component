@@ -1,0 +1,25 @@
+.span {
+  font-family: var(--mont);
+  font-size: 1.12rem;
+  color: var(--dark-grayish-blue);
+  letter-spacing: 0.45em;
+  text-transform: uppercase;
+  margin-bottom: 2.4rem;
+}
+
+.header {
+  font-family: var(--fraunces);
+  font-size: var(--header);
+  font-weight: 500;
+  color: var(--very-dark-blue);
+  line-height: 0.86;
+  margin-bottom: 1.92rem;
+}
+
+.par {
+  font-family: var(--mont);
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--dark-grayish-blue);
+  line-height: 1.55;
+}

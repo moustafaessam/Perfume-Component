@@ -1,0 +1,21 @@
+.btn {
+  background-color: var(--dark-cyan);
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 1.6rem;
+  border-radius: var(--btn-radius);
+  cursor: pointer;
+  border: none;
+  height: 1.9rem;
+  box-sizing: content-box;
+}
+.btnText {
+  font-family: var(--mont);
+  font-size: var(--text-btn);
+  font-weight: 700;
+  color: var(--white);
+}
+.btn:hover {
+  background-color: var(--darker-cyan);
+}

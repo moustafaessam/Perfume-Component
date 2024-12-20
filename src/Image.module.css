@@ -1,0 +1,12 @@
+.img {
+  height: 100%;
+  border-radius: var(--main-box-radius) 0 0 var(--main-box-radius);
+}
+
+@media (max-width: 600px) {
+  .img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--main-box-radius) var(--main-box-radius) 0 0;
+  }
+}
